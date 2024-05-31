@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.time.LocalTime;
 
 public class Time {
@@ -6,5 +7,6 @@ public class Time {
 		// TODO Auto-generated method stub
 
 	System.out.println("Time is:"+LocalTime.now());
+	System.out.println("Date is:"+LocalDate.now());
 	}
 }
